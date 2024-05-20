@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>TOP Project: Library</title>
+</head>
+<body>
+    Project: Library
+
+    <script defer src="main.js"></script>
+
+    <button id="new-book-btn">NEW BOOK</button>
+
+    <form id="book-form">
+        <input type="text" id="title" name="title" placeholder="Title" required>
+        <input type="text" id="author" name="author" placeholder="Author" required>
+        <input type="number" id="pages" name="pages" placeholder="Pages" required>
+        <label>
+            Have read:
+            <input type="checkbox" id="haveRead" name="haveRead">
+        </label>
+        <button type="submit">Add Book</button>
+    </form>
+
+    <ul id="books-index"></ul>
+
+</body>
+</html>
