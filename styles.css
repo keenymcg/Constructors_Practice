@@ -1,0 +1,61 @@
+/* FILE: styles.css */
+
+body {
+    background-color: #e0f7fa;
+    font-family: Arial, sans-serif;
+    color: #00695c;
+    padding: 20px;
+}
+
+#new-book-btn, button[type="submit"] {
+    background-color: #4db6ac;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#book-form {
+    background-color: #b2dfdb;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#book-form input[type="text"], #book-form input[type="number"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #e0f7fa;
+    color: #00695c;
+}
+
+#books-index {
+    list-style-type: none;
+    padding: 0;
+}
+
+#books-index li {
+    background-color: #80cbc4;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+#books-index button {
+    background-color: #00695c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
